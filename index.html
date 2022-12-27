@@ -1,0 +1,33 @@
+{
+    "_embedded": {
+        "messages": [
+            {
+                "userEmail": "testuser@email.com",
+                "title": "Need Guidance",
+                "question": "which book is good for Big Data?",
+                "adminEmail": null,
+                "response": null,
+                "closed": false,
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8080/api/messages/1"
+                    },
+                    "message": {
+                        "href": "http://localhost:8080/api/messages/1"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/api/messages/search/findByClosed/?closed=false&page=0&size=20"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 1,
+        "totalPages": 1,
+        "number": 0
+    }
+}
